@@ -13,13 +13,13 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     DEBUG: bool = True
     HOST: str = "0.0.0.0"
-    PORT: int = 8000
+    PORT: int = 8090
 
     # Database Settings
-    DATABASE_URL: str = "postgresql+asyncpg://user:password@localhost:5432/ecommerce"
+    DATABASE_URL: str = "postgresql+asyncpg://user_RPZ2a8:password_bre8tR@156.227.232.135:5432/ecommerce"
 
     # Security Settings
-    SECRET_KEY: str = "your-super-secret-key-should-be-very-long-and-secure"
+    SECRET_KEY: str = "q87Lj5xcVWs2SC4zEgbpjxhVDNxUCPJj"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     ALGORITHM: str = "HS256"
 
